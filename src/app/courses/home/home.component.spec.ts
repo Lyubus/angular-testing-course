@@ -16,7 +16,7 @@ import { of } from "rxjs";
 import { NoopAnimationsModule } from "@angular/platform-browser/animations";
 import { click } from "../common/test-utils";
 
-fdescribe("HomeComponent", () => {
+describe("HomeComponent", () => {
   let fixture: ComponentFixture<HomeComponent>;
   let component: HomeComponent;
   let el: DebugElement;
